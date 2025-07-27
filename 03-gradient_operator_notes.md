@@ -51,5 +51,3 @@
 - It’s essential to modeling real-world systems: heat, gravity, potential energy.
 
 ---
-
-_Next up: divergence and curl, the other building blocks of vector calculus._
