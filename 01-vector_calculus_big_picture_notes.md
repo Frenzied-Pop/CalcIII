@@ -1,4 +1,4 @@
-# Vector Calculus & PDEs – Big Picture Overview
+# [Vector Calculus & PDEs – Big Picture Overview](https://youtu.be/Jt5R-Tm8cV8?si=EA2TVq79N7puERX2)
 
 ## Introduction
 Vector calculus is used to derive and solve partial differential equations (PDEs), especially those that express conservation laws like mass, momentum, and energy.
@@ -10,7 +10,7 @@ Vector calculus is used to derive and solve partial differential equations (PDEs
 
 ## Fluid Flow and Vector Fields
 - Example: Fluid flow in the Gulf of Mexico.
-- Velocity field `\vec{u}(x, y, t) = (u(x, y, t), v(x, y, t))`
+- Velocity field $$\vec{u}(x, y, t) = (u(x, y, t), v(x, y, t))$$
 - This vector field is a solution to PDEs like the Navier-Stokes equations.
 
 ## Deriving PDEs (Navier-Stokes and Heat Equation)
@@ -35,9 +35,3 @@ Vector calculus is used to derive and solve partial differential equations (PDEs
 - PDEs help model real systems:
   - Heat flow, fluid dynamics, aerodynamic lift.
 - Simulations predict behavior like oil drift, heat distribution, and particle motion.
-
-## What's Next
-- Next videos will dive into:
-  - Gauss’s Divergence Theorem
-  - Stokes’s Theorem
-  - Derivations of key PDEs from conservation laws
