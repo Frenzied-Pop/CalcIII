@@ -1,4 +1,4 @@
-# 🌄 Gradient Operator – Key Concepts in Vector Calculus
+# 🌄 [Gradient Operator – Key Concepts in Vector Calculus](https://youtu.be/yXD5IlDstNk?si=XSGLvqPGdkUXwk36)
 
 ## 📘 Definition
 
