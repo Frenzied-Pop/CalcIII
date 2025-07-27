@@ -1,6 +1,4 @@
-# Div, Grad, and Curl — Vector Calculus Building Blocks for PDEs
-
-**Video Link**: [Div, Grad, and Curl](https://www.youtube.com/watch?v=link_to_video_placeholder)
+# [Div, Grad, and Curl — Vector Calculus Building Blocks for PDEs](https://youtu.be/lKXW7DRyyro?si=Q1bWk3__r-PwuGMu)
 
 ## Introduction
 
@@ -77,14 +75,3 @@ This lecture introduces the three fundamental operators of vector calculus: **Gr
 - These tools enable translation from **physical systems** into **math**.
 
 ---
-
-## Next Topics
-
-- Deeper dives into:
-  - Gradient
-  - Divergence
-  - Curl
-- Integral theorems:
-  - **Gauss’s Divergence Theorem**
-  - **Stokes’s Theorem**
-
