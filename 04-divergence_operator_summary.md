@@ -65,5 +65,3 @@
 - Used in PDEs like Laplace’s equation: `∇²f = 0`
 
 ---
-
-_Next topic: Curl — measuring the rotation of vector fields._
