@@ -8,9 +8,9 @@
 \iint_S (\nabla \times \vec{F}) \cdot d\vec{A} = \oint_{\partial S} \vec{F} \cdot d\vec{s}
 ```
 
-- `\vec{F}`: Vector field
-- `d\vec{A}`: Oriented surface element (normal to the surface)
-- `d\vec{s}`: Tangent vector around the boundary
+- $$\vec{F}$$: Vector field
+- $$d\vec{A}$$: Oriented surface element (normal to the surface)
+- $$d\vec{s}$$: Tangent vector around the boundary
 - Relates **rotation in the field (curl)** to **circulation** around the boundary
 
 ### 🔄 Intuition
@@ -28,7 +28,7 @@
 \iint_{S} \left( \frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y} \right) dx\,dy = \oint_{\partial S} (F_1 \, dx + F_2 \, dy)
 ```
 
-- `F_1`, `F_2`: Components of the vector field `\vec{F} = (F_1, F_2)`
+- $$F_1$$, $$F_2$$: Components of the vector field $$\vec{F} = (F_1, F_2)$$
 - The **left** side measures local "swirl" in the region.
 - The **right** side sums up the flow around the boundary.
 
@@ -52,7 +52,7 @@ To compute the **area** of a region using line integrals:
 ```math
 \text{Area} = \frac{1}{2} \oint_{\partial S} (x \, dy - y \, dx)
 ```
-- Based on choosing a vector field: `\vec{F} = (-y, x)`
+- Based on choosing a vector field: $$\vec{F} = (-y, x)$$
 - Curl of this field is 2, hence:
 ```math
 \iint_S 2 \, dA = \oint_{\partial S} (-y \, dx + x \, dy)
