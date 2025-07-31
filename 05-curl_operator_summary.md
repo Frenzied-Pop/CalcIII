@@ -60,7 +60,3 @@ For 2D vector field `F = (f₁(x, y), f₂(x, y))`:
 | Divergence   | Vector  | Scalar  | `∇·F`        |
 | Curl         | Vector  | Vector  | `∇×F`        |
 | Laplacian    | Scalar  | Scalar  | `∇²f = ∇·∇f` |
-
----
-
-_Next step: apply these tools to conservation laws and PDEs!_
