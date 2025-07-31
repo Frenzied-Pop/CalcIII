@@ -6,7 +6,7 @@ The **Continuity Equation** is a Partial Differential Equation (PDE) expressing 
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) = 0
 ```
 - `ρ(x, t)`: density (scalar)
-- `\vec{u}(x, t)`: velocity field (vector)
+- $$\vec{u}(x, t)$$: velocity field (vector)
 - This equation ensures that **mass is not created or destroyed** in the flow.
 
 ---
@@ -30,8 +30,8 @@ By merging terms and assuming this holds for **all control volumes**:
 
 ## 🌊 Incompressible Flow Case
 If the fluid has **constant density** (e.g. water):
-- \( \nabla \rho = 0 \)
-- \( \frac{\partial \rho}{\partial t} = 0 \)
+- $$\( \nabla \rho = 0 \)$$
+- $$\( \frac{\partial \rho}{\partial t} = 0 \)$$
 Then the continuity equation simplifies:
 ```math
 \nabla \cdot \vec{u} = 0
@@ -84,9 +84,9 @@ Full equation:
 
 | Assumption         | Resulting Form                        |
 |--------------------|----------------------------------------|
-| General fluid      | \( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) = 0 \) |
-| Incompressible     | \( \nabla \cdot \vec{u} = 0 \)          |
-| With source/sink   | \( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) = Q \) |
+| General fluid      | $$\( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) = 0 \)$$ |
+| Incompressible     | $$\( \nabla \cdot \vec{u} = 0 \)$$          |
+| With source/sink   | $$\( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) = Q \)$$|
 
 ---
 
