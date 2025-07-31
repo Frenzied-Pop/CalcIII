@@ -4,8 +4,7 @@
 Gauss’s divergence theorem relates the **flux** of a vector field through a closed surface to the **divergence** of that field inside the volume enclosed by the surface:
 
 ```math
-\iint_S ec{F} \cdot \hat{n} \, dS = \iiint_V (
-abla \cdot ec{F}) \, dV
+\iint_S \vec{F} \cdot \hat{n} \, dS = \iiint_V (\nabla \cdot \vec{F}) \, dV
 ```
 
 - **Left**: Total flux out of a closed surface `S`.
@@ -30,35 +29,32 @@ abla \cdot ec{F}) \, dV
 ## 📦 Application to Conservation Laws
 ### Conservation of Mass
 Let:
-- `ρ(x, t)` be the **density**
-- `ec{F} = ρ ec{u}` be the **mass flux**
+- $$ρ(x, t)$$ be the **density**
+- $$\vec{F} = \rho \vec{u}$$ be the **mass flux**
 
 Total mass:
 ```math
-	ext{Mass} = \iiint_V ho \, dV
+\text{Mass} = \iiint_V \rho \, dV
 ```
 
 Rate of change:
 ```math
-rac{d}{dt} \iiint_V ho \, dV = - \iint_S ho ec{u} \cdot \hat{n} \, dS
+\frac{d}{dt} \iiint_V \rho \, dV = - \iint_S \rho \vec{u} \cdot \hat{n} \, dS
 ```
 
 Using Gauss’s theorem:
 ```math
-rac{d}{dt} \iiint_V ho \, dV = - \iiint_V 
-abla \cdot (ho ec{u}) \, dV
+\frac{d}{dt} \iiint_V \rho \, dV = - \iiint_V \nabla \cdot (\rho \vec{u}) \, dV
 ```
 
 Bringing both terms into one integral:
 ```math
-\iiint_V \left( rac{\partial ho}{\partial t} + 
-abla \cdot (ho ec{u}) ight) dV = 0
+\iiint_V \left( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) \right) dV = 0
 ```
 
 Because this holds for any volume:
 ```math
-rac{\partial ho}{\partial t} + 
-abla \cdot (ho ec{u}) = 0
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{u}) = 0
 ```
 
 ✅ This is the **Continuity Equation** (mass conservation).
@@ -66,10 +62,9 @@ abla \cdot (ho ec{u}) = 0
 ---
 
 ## 🧪 Special Case: Incompressible Flow
-If `ρ` is constant:
+If $$ρ$$ is constant:
 ```math
-
-abla \cdot ec{u} = 0
+\nabla \cdot \vec{u} = 0
 ```
 This simplifies the continuity equation for incompressible fluids.
 
@@ -86,7 +81,3 @@ This simplifies the continuity equation for incompressible fluids.
 - Deriving Navier–Stokes equations
 - Analyzing fluid flow and electromagnetism
 - Computing volume of irregular shapes via divergence = 1 trick
-
----
-
-_Next: apply this to momentum or energy conservation to derive other PDEs like Navier-Stokes or heat equations!_
