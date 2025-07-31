@@ -28,7 +28,7 @@ Answer: ❌ **No**
 
 ## ✅ Gradient Fields: Conservative & Curl-Free
 
-If a vector field `\vec{F}` is the gradient of a scalar field, then:
+If a vector field $$\vec{F}$$ is the gradient of a scalar field, then:
 ```math
 \nabla \times \vec{F} = \nabla \times (\nabla f) = \vec{0}
 ```
@@ -61,7 +61,7 @@ Gradient fields are **conservative**:
 
 ## 🔧 Helmholtz Decomposition
 
-For **any** sufficiently smooth vector field `\vec{F}`, we can write:
+For **any** sufficiently smooth vector field $$\vec{F}$$, we can write:
 
 ```math
 \vec{F} = -\nabla \phi + \nabla \times \vec{A}
@@ -95,7 +95,7 @@ For **any** sufficiently smooth vector field `\vec{F}`, we can write:
 
 | Field Type      | Conditions                    | Description                          |
 |------------------|-------------------------------|--------------------------------------|
-| Gradient Flow    | `\vec{F} = ∇f`                | Curl-free, conservative              |
+| Gradient Flow    | $$\vec{F} = ∇f$$                | Curl-free, conservative              |
 | Potential Flow   | `∇·F = 0`, `∇×F = 0`          | Incompressible + irrotational        |
 | Solenoidal Field | `∇·F = 0`                     | Incompressible (e.g., steady fluids) |
 | Helmholtz Form   | `F = -∇φ + ∇×A`              | General decomposition                |
